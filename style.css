@@ -14,8 +14,6 @@
 }
 
 .footer > .row {
-    width: 75%;
-    max-width: 60rem;
     margin: auto;
 }
 
@@ -214,9 +212,11 @@ p {
 }
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
-    .container {
+    .footer > .row, .container {
         width: 80%;
     }
+
+
 }
 
 @media only screen and (min-width: 45em) {  /* 720px */
@@ -274,7 +274,7 @@ p {
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
-    .container {
+    .footer > .row, .container {
         width: 75%;
         max-width: 60rem;
     }
