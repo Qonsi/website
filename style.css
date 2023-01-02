@@ -2,17 +2,33 @@
 
 /* UNIVERSAL */
 
+.footer {
+    position: fixed !important;
+    width: 100vw;
+    bottom: 0;
+    background: #F1F1F1;
+}
+
+.footer * {
+    line-height: 1.1rem;
+}
+
+.footer > .row {
+    width: 75%;
+    max-width: 60rem;
+    margin: auto;
+}
+
 .m-0 {
     margin: 0;
 }
 
 .logo {
-    width: 30%;
+    width: 50%;
     margin-bottom: 30px;
 }
 
 h4 {
-    text-transform: uppercase;
     font-weight: bold;
 }
 
